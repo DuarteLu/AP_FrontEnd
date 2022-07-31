@@ -1,0 +1,15 @@
+.login{
+    background-image: url(../../../assets/img/tecnologia.jpg);
+    height: 100vh;
+
+}
+
+.botonIngresar{
+    background-color: #1f427c;
+    color: #f0f9fd;
+}
+
+.botonIngresar:hover{
+    color:#86bfe0;
+}
+

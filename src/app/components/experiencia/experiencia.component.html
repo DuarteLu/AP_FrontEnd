@@ -1,0 +1,65 @@
+<div class="container">
+
+    <div class="card tarjeta" >
+
+        <div class="row">
+             <div class="card-titles col-sm-10" ><h2>Experiencias</h2></div>
+             <div class=" btn-edit col-sm-2 d-flex justify-content-end" routerLink="/nuevaexp" *ngIf="isLogged"><a ><i class="fa fa-plus" aria-hidden="true"></i></a></div>
+         </div>  
+      
+            <div>
+               <ul class="items-list">
+                 <li>
+                   <div class="row separar ">
+                       <div class="col-sm-10">
+                        <div class="box">
+                          <a href="#">
+                             <div class="logo-image-container">
+                                <img src="../../../assets/img/anlis.png"alt="LogoAnlis">
+                                </div>
+                                </a>
+                             <div class="list-info ">
+                               <h3>Anlis-Malbran</h3>
+                               <p>Implementación base de datos de personal <span>-Jornada párcial</span></p>
+                             </div>
+                   </div>
+                 </div>
+                   <div class="col-sm-2 d-flex justify-content-end align-items-center">
+                    
+                     <div class=" btn-edit-chiquito btn-right" ><a ><i class="fa fa-pencil" aria-hidden="true"></i></a></div>
+                     <div class=" btn-edit-chiquito btn-right " onclick="Eliminar_habilidad1()"><a ><i class="fa fa-trash-o" aria-hidden="true"></i></a></div>
+                     
+               </div>
+                   </div>
+               </li>
+      
+               <li>
+                   <div class="row separar">
+                       <div class="col-sm-10" >
+                        <div class="box">
+                          <a href="#">
+                             <div class="logo-image-container">
+                                <img src="../../../assets/img/LaSalle.png"alt="LogoLaSalle">
+                                </div>
+                                </a>
+                             <div class="list-info ">
+                               <h3>Profesora suplente de computación</h3>
+                               <span>Nivel primario</span>
+                               <p>Gonzalez Catan <span>-Jornada párcial</span></p>
+                              
+                             </div>
+                       </div>
+                       </div>
+      
+                       <div class="col-sm-2 d-flex justify-content-end align-items-center">
+                        
+                         <div class=" btn-edit-chiquito btn-right" ><a ><i class="fa fa-pencil" aria-hidden="true"></i></a></div>
+                         <div class=" btn-edit-chiquito btn-right " onclick="Eliminar_habilidad2()"><a ><i class="fa fa-trash-o" aria-hidden="true"></i></a></div>
+                     </div>
+                   </div>
+               </li>    
+             </ul>      
+             </div>
+         </div>         
+               
+      </div>   

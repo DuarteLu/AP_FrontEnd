@@ -1,0 +1,33 @@
+.tarjeta{
+    border-radius: 32px;
+    margin: 18px 10px;
+    padding: 20px;
+    border-color: #0a66c2;
+ }
+
+ ul .items-list{
+    list-style: none inside;
+}
+
+ul .items-list li{
+    display: flex;
+    margin: 10px 0;
+}
+.box{ display: flex; 
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+
+.logo-image-container img{
+ width:80px;
+ height: 80px;
+ margin-left: 10px;
+ margin-right: 20px;
+
+}
+
+.separar{
+  margin-bottom: 10px;
+
+}

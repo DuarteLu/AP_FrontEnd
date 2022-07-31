@@ -1,0 +1,18 @@
+.tarjeta{
+    border-radius: 32px;
+    margin: 18px 10px;
+    padding: 20px;
+    border-color: #0a66c2;
+ }
+
+.footer{
+    /*padding: 10px 10px;*/
+    background-color: #3c68b1;
+    background-image: url(../../../assets/img/tecnologia.jpg);
+ 
+}
+
+.footer p{
+    text-align: center;
+    color: white;
+}

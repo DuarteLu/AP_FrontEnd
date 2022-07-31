@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* ------------------------- */
+/* BOTONES DE EDICION */
+/* ------------------------- */
+.btn-right{
+    float: right;
+    padding: 5px;
+      
+} 
+
+
+.btn-edit a i{
+    font-size: 20px;
+	line-height: 60px;
+    text-align: center;
+}
+
+.btn-edit a :hover{
+    background: rgb(192, 191, 191);
+    display: block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50px;
+
+}
+
+.btn-edit-chiquito{
+    font-size: 20px;
+	line-height: 20px;
+    text-align: center;
+}
+
+.btn-edit-chiquito a :hover{
+    background: rgb(192, 191, 191);
+    display: block;
+	width: 20px;
+	height: 20px;
+	border-radius: 60px;
+}
+
+
+ 
+

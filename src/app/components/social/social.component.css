@@ -1,0 +1,16 @@
+
+
+ul li{
+    font-size: 20px;
+}
+
+ul li a {
+    color: #f0f9fd;
+}
+
+ a:hover{
+    color:#86bfe0;
+}
+ ul li a:hover{
+    color: #86bfe0;
+}
